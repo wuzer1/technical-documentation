@@ -80,7 +80,7 @@ code{
     text-align: left!important;
     white-space: normal;
     position: relative;
-    word-break: normal;
+    word-break: break-word;
     word-wrap: normal;
     line-height: 2;
     background-color: #DDDDDD;

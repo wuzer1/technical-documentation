@@ -92,6 +92,9 @@ code{
     .flex{
         flex-direction: column;
     }
+    #navbar-header{
+        width: 100%;
+    }
     .navigation{
         margin-top: 70px;
     }
@@ -108,5 +111,8 @@ code{
     }
     .main-section{
         padding: 10px;
+    }
+    .code{
+        display:  -webkit-inline-box;
     }
 }

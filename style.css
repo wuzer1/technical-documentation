@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.navbar{
+    width: 400px;
+    max-width: 100%;
+    border-right: 4px solid #DDDDDD;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+.navbar{
+    position: fixed;
+    width: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+}
+#navbar-header{
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+    width: 400px;
+    text-align: center;
+}
+.navigation{
+    margin-top: 100px;
+}
+ul{
+    padding: 0;
+}
+.navigation li{
+    border-top: 1px solid #000;
+    list-style-type: none;
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.nav-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3em;
+    color: #4D4E53;
+    display: block;
+    padding: 20px 30px; 
+}
+.main-doc{
+    margin: 0 auto 0 400px;
+    max-width: 100%;
+    padding: 20px;
+}
+.main-section{
+    padding: 30px 50px;
+    position: relative;
+    margin-right: auto; 
+}
+.main-section header{
+    font-size: 2em;
+    margin-top: 0;
+    font-weight: 700;
+}
+.main-section article{
+    padding-left: 10px;
+    font-size: 1.3em;
+}
+.main-section article ul{
+    padding-left: 20px;
+}
+.main-section article ul > li{
+    padding-bottom: 20px;
+}
+code{
+    display: block;
+    text-align: left!important;
+    white-space: normal;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #DDDDDD;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+}
+@media screen and (max-width:900px){
+    .flex{
+        flex-direction: column;
+    }
+    .navigation{
+        margin-top: 70px;
+    }
+    .navbar{
+        height: 260px;
+        width: 100%;
+        background-color: #fff;
+        z-index: 3;
+        box-shadow: 0px 10px 21px -2px rgba(0,0,0,0.75);
+    }
+    .main-doc{
+        margin: 250px auto 0;
+        width: 100%;
+    }
+    .main-section{
+        padding: 10px;
+    }
+}
